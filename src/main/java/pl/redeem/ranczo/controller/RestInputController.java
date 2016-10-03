@@ -1,12 +1,12 @@
-package pl.redeem.ranczo;
+package pl.redeem.ranczo.controller;
 
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+public class RestInputController {
     
-    @RequestMapping("/")
+    @RequestMapping("/restIn")
     public String index() {
         return "Greetings from Spring Boot!";
     }
